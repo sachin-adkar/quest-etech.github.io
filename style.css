@@ -1,0 +1,165 @@
+*{
+	margin:0;
+	font-family: 'Comfortaa', cursive;
+
+}
+#header{
+	height:70px;
+}
+#header-inner-text{
+	width:80%;
+	float:right;
+	margin-top: 15px;
+	display:inline-flex;
+}
+#header-inner-text a {
+text-decoration: none;
+color:#343d3a;
+}
+#header-resp{
+	display:none;
+}
+#nav-bar{
+	height:50px;
+	background: #343d3a;
+	
+}
+#inner-nav{
+	width:80%;
+	float:right;
+	margin-top:15px;
+	display:inline-flex;
+
+
+
+}
+
+#icns{
+	text-align: right;
+	display:inline-block;
+	width:80%;
+	float:right;
+}
+#icns i{
+	background:white; 
+	cursor: pointer;
+}
+#icns i:hover{
+	opacity: 0.5;
+}
+
+#inner-nav a{
+	text-decoration: none;
+	color:white;
+	margin:0px 10px 0px 5px;
+	letter-spacing: 0.5px;
+	font-weight: 500;
+	font-size:15px;
+}
+#image-div{
+	height:250px;
+	width:100%;
+	
+	background-position:  fill;
+	background-image: url(93.jpg);
+}
+
+#texts{
+
+	padding:15px;
+	background:#0ab27a;	
+	height: 200px;
+	position: relative;
+
+
+}
+
+@media only screen and (max-width: 525px){
+    #texts { height: 700px; }
+    #image-div{
+    	display: none;
+    }
+    #para-inner{
+	display:block;
+	font-weight: bold;
+}
+#header{
+	display:none;
+}
+#header-resp{
+	height:60px;
+	display: block;
+	width:100%;
+
+}
+#header-inner-text-resp{
+	width:78%;
+	float:right;
+	display: inline-flex;
+	margin-top: 15px;
+
+}
+#header-inner-text-resp a{
+	text-decoration: none;
+	color:black;
+}
+#header-inner-text h3{
+	color:white;
+	display: block;
+}
+#drop{
+	width:100%;
+	float:right;
+	background-color: blue;
+}
+#nav-bar{
+	display:none;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+    width:50%;
+    float:right;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    width: 150px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+    margin:2px;
+}
+.dropdown-content a{
+width:100%;
+margin:5px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: table-cell;
+}
+}
+#inner-texts{
+	width:80%;
+	float:right;
+	background:#0ab27a;
+}
+#inner-texts h1,h5{
+	color:white;
+	margin-top: 10px;
+}
+#para{
+	margin-top:10px;
+	background:#0ab27a;
+	line-height: 25px;
+}
+#para p{
+	font-size: 15px;
+	width:70%;
+	font-weight: 500;
+}
+
+
+
